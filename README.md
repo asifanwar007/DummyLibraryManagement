@@ -13,11 +13,13 @@ file for creating all the table or schema in your psql database**
 **Following things are required before running this library management.**
 1. First create python3 virtual environment and activatae
 2. then run requirements.txt
+
 ```
    $pip install -r requiremnts.txt
-   
 ```
+
 3. Then setup your database in app.py 
+
 ```python
 connection = psql.connect(
     user="your_user_name",
@@ -27,6 +29,7 @@ connection = psql.connect(
     database = "database_name"
 )
 ```
+
 3. After creating database and setting step2 run app.py
 ```python app.py```
 
